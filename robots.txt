@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.anconstruction.co.th/sitemap.xml
+Sitemap: https://www.anmtconstruction.com/sitemap.xml
