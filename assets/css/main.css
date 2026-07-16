@@ -2262,7 +2262,7 @@ input, select, textarea {
 
 				.carousel-arrow {
 					top: auto;
-					bottom: -3em;
+					bottom: 0;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
