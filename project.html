@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -126,14 +127,14 @@
               <h2>Choose Your Design, We'll Build It<span class="i18n-th">เลือกแบบที่ใช่ เราสร้างให้</span></h2>
             </header>
             <p>
-              Everything below is a design concept for you to choose from.
+              The design concepts below are yours to choose from, and further down you can see real projects we have completed.
               Each theme shows a different way of living, from family homes
               to accessible design for the elderly, so you can picture how
               it fits your own life. Like a theme? We'll adapt it to your
               land and budget, then build it from the ground up.
             </p>
             <p class="i18n-th">
-              ทุกผลงานด้านล่างเป็นแบบการออกแบบให้คุณเลือก
+              แบบบ้านด้านล่างเป็นแนวคิดการออกแบบให้คุณเลือก และถัดลงไปคือผลงานจริงที่เราทำเสร็จแล้ว
               แต่ละธีมแสดงแนวทางการใช้ชีวิตที่แตกต่างกัน ตั้งแต่บ้านสำหรับครอบครัว
               ไปจนถึงบ้านที่ออกแบบเพื่อผู้สูงอายุ หากถูกใจธีมไหน เราจะปรับแบบให้เข้ากับที่ดิน
               และงบประมาณของคุณ แล้วลงมือก่อสร้างให้ตั้งแต่ต้น
@@ -317,6 +318,242 @@
           </div>
         </section>
 
+        <!-- Portfolio: completed works -->
+        <section id="portfolio" class="portfolio" data-portfolio>
+          <div class="inner">
+            <header class="major">
+              <h2>Our Completed Works<span class="i18n-th">ผลงานที่ผ่านมา</span></h2>
+            </header>
+            <p>
+              Real projects our team has built, from homes and steel structures
+              to canal lining, dredging and demolition. Tap a photo to see it larger.
+            </p>
+            <p class="i18n-th">
+              ผลงานจริงที่ทีมของเราลงมือทำ ตั้งแต่บ้าน โครงสร้างเหล็ก งานรางน้ำ
+              งานขุดลอก ไปจนถึงงานรื้อถอน แตะที่รูปเพื่อดูภาพขนาดใหญ่
+            </p>
+
+            <ul class="portfolio-filters" aria-label="Filter by category">
+              <li><button type="button" class="portfolio-filter is-active" data-filter="all" aria-pressed="true">All / ทั้งหมด</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="house" aria-pressed="false">House / สร้างบ้าน</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="garage" aria-pressed="false">Garage &amp; Steel / โรงรถ-โกดัง</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="canal" aria-pressed="false">Canal Lining / รางน้ำ</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="drain" aria-pressed="false">Dredging / ขุดลอก</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="fence" aria-pressed="false">Fence &amp; Wall / รั้ว-กำแพง</button></li>
+              <li><button type="button" class="portfolio-filter" data-filter="demolition" aria-pressed="false">Demolition / รื้อถอน</button></li>
+            </ul>
+
+            <ul class="portfolio-grid">
+              <li class="portfolio-item" data-cat="house" style="--pf-accent: #e7b788;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/รูปโครงสร้างก่อสร้าง.jpg" alt="โครงหลังคาเหล็กที่กำลังติดตั้งบนโครงสร้างบ้าน" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Engineered Roof Framing</span>
+                    <span class="portfolio-title-th">ติดตั้งโครงหลังคาเหล็ก</span>
+                    <span class="portfolio-place">House Construction · งานสร้างบ้าน</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="house" style="--pf-accent: #e7b788;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/หน้าบ้าน.jpg" alt="ผนังบ้านที่ฉาบและทาสีเสร็จก่อนติดตั้งหลังคา" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Wall Plastering &amp; Painting</span>
+                    <span class="portfolio-title-th">ฉาบและทาสีผนังบ้าน</span>
+                    <span class="portfolio-place">House Construction · งานสร้างบ้าน</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="garage" style="--pf-accent: #8d82c4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/Garage%20Cons.jpg" alt="โครงหลังคาเหล็กช่วงกว้างคลุมพื้นที่จอดรถและจัดเก็บของ" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Wide-Span Steel Canopy</span>
+                    <span class="portfolio-title-th">โครงหลังคาเหล็กช่วงกว้าง</span>
+                    <span class="portfolio-place">Garage / Warehouse · โรงรถ/โกดัง</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="garage" style="--pf-accent: #8d82c4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/Cafe%20Cons.jpg" alt="อาคารคาเฟ่โครงสร้างไม้และเหล็กยกพื้นระหว่างก่อสร้าง" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Raised Timber &amp; Steel Cafe</span>
+                    <span class="portfolio-title-th">อาคารคาเฟ่โครงไม้และเหล็ก</span>
+                    <span class="portfolio-place">Garage / Warehouse · โรงรถ/โกดัง</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="garage" style="--pf-accent: #8d82c4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/เทคอนกรีต%20ร้าน%20SOS.png" alt="พื้นคอนกรีตที่เทและตกแต่งผิวหน้าร้านค้า" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Shopfront Concrete Floor</span>
+                    <span class="portfolio-title-th">เทพื้นคอนกรีตหน้าร้าน</span>
+                    <span class="portfolio-place">ร้าน SOS</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="canal" style="--pf-accent: #6fc3df;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ก่อสร้างดาดลำเหมือง%2001.jpg" alt="รางระบายน้ำคอนกรีตเสริมเหล็กที่ก่อสร้างแล้วเสร็จ" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Concrete Canal Lining</span>
+                    <span class="portfolio-title-th">ก่อสร้างดาดลำเหมือง</span>
+                    <span class="portfolio-place">Canal Lining · งานรางน้ำ</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="canal" style="--pf-accent: #6fc3df;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ก่อสร้างดาดลำเหมือง%2007.jpg" alt="ทีมช่างเก็บงานผิวคอนกรีตดาดคลองข้างกำแพงสำเร็จรูป" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Canal Surface Finishing</span>
+                    <span class="portfolio-title-th">เก็บผิวคอนกรีตดาดคลอง</span>
+                    <span class="portfolio-place">Canal Lining · งานรางน้ำ</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="canal" style="--pf-accent: #6fc3df;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ก่อสร้างดาดลำเหมือง%2008.jpg" alt="ช่างเก็บงานรอยต่อท่อลอดกับรางคอนกรีตในพื้นที่ชุมชน" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Culvert Connection</span>
+                    <span class="portfolio-title-th">เชื่อมท่อลอดกับรางคอนกรีต</span>
+                    <span class="portfolio-place">Canal Lining · งานรางน้ำ</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="drain" style="--pf-accent: #8ea9e8;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ขุดลอกคลองในหมู่บ้านพิมุกต์.jpg" alt="งานขุดลอกคลองในหมู่บ้านพิมุกต์" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Village Canal Dredging</span>
+                    <span class="portfolio-title-th">ขุดลอกคลองในหมู่บ้าน</span>
+                    <span class="portfolio-place">หมู่บ้านพิมุกต์</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="drain" style="--pf-accent: #8ea9e8;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ขุดลอกท่อระบายน้ำกาญจน์กนก.jpg" alt="ภาพเปรียบเทียบก่อนและหลังขุดลอกท่อระบายน้ำที่อุดตัน" loading="lazy" style="object-position: center 75%;" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Drain Pipe Dredging</span>
+                    <span class="portfolio-title-th">ขุดลอกท่อระบายน้ำ</span>
+                    <span class="portfolio-place">หมู่บ้านกาญจน์กนก</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="fence" style="--pf-accent: #87c5a4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ผนังกั้นดิน%2001.jpg" alt="รั้วคอนกรีตสำเร็จรูปกั้นแนวเขตที่ดิน" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Precast Boundary Fence</span>
+                    <span class="portfolio-title-th">รั้วคอนกรีตสำเร็จรูป</span>
+                    <span class="portfolio-place">Fence / Retaining Wall · รั้วและกำแพงกันดิน</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="fence" style="--pf-accent: #87c5a4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ผนังกั้นดิน%2002.jpg" alt="กำแพงกันดินคอนกรีต" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Retaining Wall</span>
+                    <span class="portfolio-title-th">กำแพงกันดิน</span>
+                    <span class="portfolio-place">Fence / Retaining Wall · รั้วและกำแพงกันดิน</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="fence" style="--pf-accent: #87c5a4;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/ผนังกั้นดินป่าสัก%2003.jpg" alt="ราวกันตกคอนกรีตเสริมเหล็กริมถนนข้างคลอง" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Roadside Canal Barrier</span>
+                    <span class="portfolio-title-th">ราวกันตกริมถนนข้างคลอง</span>
+                    <span class="portfolio-place">ป่าสัก</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="demolition" style="--pf-accent: #ec8d81;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/รื้อถอนหน้างานคุณจอห์น01.jpg" alt="งานรื้อถอนอาคารพาณิชย์พร้อมกั้นเขตป้องกันฝุ่นและเศษวัสดุ" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Commercial Building Demolition</span>
+                    <span class="portfolio-title-th">รื้อถอนอาคารพาณิชย์</span>
+                    <span class="portfolio-place">Demolition · งานรื้อถอน</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="demolition" style="--pf-accent: #ec8d81;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/รื้อถอนเชียงดาว%2001.jpg" alt="งานรื้อถอนอาคารที่อำเภอเชียงดาว" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Building Demolition</span>
+                    <span class="portfolio-title-th">งานรื้อถอนอาคาร</span>
+                    <span class="portfolio-place">เชียงดาว</span>
+                  </span>
+                </button>
+              </li>
+              <li class="portfolio-item" data-cat="demolition" style="--pf-accent: #ec8d81;">
+                <button type="button" class="portfolio-card">
+                  <span class="portfolio-thumb">
+                    <img src="images/เครนติ้วแบคโฮ.jpg" alt="รถเครนยกรถขุดขึ้นชั้นบนอาคารเพื่อรื้อถอนแบบบนลงล่าง" loading="lazy" />
+                  </span>
+                  <span class="portfolio-body">
+                    <span class="portfolio-title">Top-Down Demolition by Crane</span>
+                    <span class="portfolio-title-th">ยกรถขุดขึ้นรื้อถอนจากชั้นบน</span>
+                    <span class="portfolio-place">Demolition · งานรื้อถอน</span>
+                  </span>
+                </button>
+              </li>
+            </ul>
+
+            <ul class="actions portfolio-cta">
+              <li><a href="contactus.html" class="button next">Start your project<span class="i18n-th-inline"> / เริ่มงานของคุณกับเรา</span></a></li>
+            </ul>
+          </div>
+        </section>
+
+        <dialog id="portfolio-lightbox" class="portfolio-lightbox" aria-label="Project photo">
+          <figure>
+            <img src="" alt="" />
+            <figcaption><strong></strong><span></span></figcaption>
+          </figure>
+          <button type="button" class="lb-btn lb-close" aria-label="Close">&#10005;</button>
+          <button type="button" class="lb-btn lb-prev" aria-label="Previous photo">&#8249;</button>
+          <button type="button" class="lb-btn lb-next" aria-label="Next photo">&#8250;</button>
+        </dialog>
+
         <!-- Three -->
         <section id="three">
           <div class="inner">
@@ -406,5 +643,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/portfolio.js"></script>
   </body>
 </html>
