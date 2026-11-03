@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/files/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+        { "key": "Content-Disposition", "value": "inline" }
+      ]
+    }
+  ]
+}
